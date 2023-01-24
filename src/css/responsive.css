@@ -1,7 +1,14 @@
 @media (max-width: 1200px){
+    body{
+        background-color: #f44336;
+    }
+    body .fundo-video{
+        display: none;
+    }
     .container {
         flex-wrap: wrap;
-        
+        justify-content: center;
+        height: auto;
     }
     .container .mario {
         max-width: 50%;
@@ -10,13 +17,37 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-
     }
-    .container .descricao {
+    .container .informacoes .descricao {
         color: #ffffff;
         text-align: center;
     }
-    .container .botao-trailer {
+    .container .informacoes .botao-trailer {
         background-color: #263238;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 500px) {
+    .container .informacoes .imagem-titulo{
+        width: 95%;
+    }
+    .container .informacoes .descricao{
+        line-height: 1.5em;
+    }
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+    .modal #video {
+        width: 300px;
+        height: 169px;
+    }
+}
+
+@media (max-width: 376px) {
+    .modal #video {
+        width: 250px;
+        height: 140px;
     }
 }
