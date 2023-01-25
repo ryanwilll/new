@@ -3,6 +3,11 @@ const btnTrailerClose = document.querySelector("#botao-trailer-close")
 const modal = document.querySelector(".modal")
 
 
+modal.addEventListener("click", (eCloseModal) => {
+    modal.classList.remove("aberto")
+    stop()
+})
+
 btnTrailerOpen.addEventListener("click", (e) => {
     modal.classList.add("aberto")
 
