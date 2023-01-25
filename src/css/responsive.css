@@ -46,8 +46,15 @@
 }
 
 @media (max-width: 376px) {
+    body{
+        overflow:scroll;
+    }
+
     .modal #video {
         width: 250px;
         height: 140px;
+    }
+    .container img {
+        padding: 10%;
     }
 }
