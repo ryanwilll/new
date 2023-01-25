@@ -47,7 +47,7 @@
 
 @media (max-width: 376px) {
     body{
-        overflow:scroll;
+        overflow: scroll;
     }
 
     .modal #video {
