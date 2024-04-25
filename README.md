@@ -1,8 +1,5 @@
 ﻿<h1 align="center"> Projeto Mario Bross </h1>
 
-![preview](https://cdn.discordapp.com/attachments/1015396898766590054/1089338564694769754/Screenshot_3.png)
-![preview](https://cdn.discordapp.com/attachments/1015396898766590054/1089338239946600448/fullmobile.png)
-
 [Clique aqui para acessar](https://ryanwilll.github.io/projetoMario/)
 
 ## 🚀 Tecnologias
